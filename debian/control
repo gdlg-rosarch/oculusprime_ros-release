@@ -1,0 +1,12 @@
+Source: ros-kinetic-oculusprime
+Section: misc
+Priority: extra
+Maintainer: Xaxxon Technologies <info@xaxxon.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-dynamic-reconfigure, ros-kinetic-nodelet, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-oculusprime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-amcl, ros-kinetic-depthimage-to-laserscan, ros-kinetic-dwa-local-planner, ros-kinetic-dynamic-reconfigure, ros-kinetic-gmapping, ros-kinetic-map-server, ros-kinetic-move-base, ros-kinetic-nodelet, ros-kinetic-openni2-camera, ros-kinetic-openni2-launch, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-visualization-msgs
+Description: Oculus Prime ROS Interface
